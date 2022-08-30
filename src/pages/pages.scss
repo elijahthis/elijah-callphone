@@ -1,0 +1,121 @@
+.LoginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 53px;
+
+    label {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        width: 100%;
+        padding: 1rem;
+        background: rgba(154, 159, 191, 0.08);
+        border-radius: 8px;
+        color: #161616;
+        border-radius: 8px;
+        border: 0;
+        font-family: "Rubik";
+        margin-bottom: 25px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 544px;
+        margin-top: 26px;
+    }
+
+    .desc {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 132%;
+        color: #444444;
+        text-align: center;
+        margin-bottom: 26px;
+    }
+
+    .bottom-actions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 132%;
+        color: #13113f;
+        margin-bottom: 45px;
+
+        label {
+            width: unset;
+        }
+    }
+
+    input[type="checkbox"] {
+        margin-right: 0.75rem;
+    }
+
+    button {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        padding: 1rem;
+        width: 100%;
+        color: #13113f;
+        color: #ffffff;
+        text-align: center;
+        background: #4834d4;
+        border: 1px solid rgba(155, 155, 155, 0.2);
+        border-radius: 8px;
+        border: 0;
+        cursor: pointer;
+    }
+}
+
+.DashboardPage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    height: calc(100vh - 80px);
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .card {
+        margin-top: auto;
+        margin-left: auto;
+        max-width: 426px;
+        * {
+            text-align: left;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 132%;
+            color: #444444;
+        }
+        .logout {
+            color: #4834d4;
+            margin-top: 1.5rem;
+            cursor: pointer;
+        }
+    }
+}
